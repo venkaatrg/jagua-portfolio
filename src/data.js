@@ -45,9 +45,9 @@ export const socialData = [
 ];
 
 export const heroData = {
-  title: 'I’m Void Sir.',
+  title: 'InkByContraste',
   subtitle:
-    'Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.',
+    'Jagua Ink Tattoos - tattoos without the commitment.',
   btnText: 'read more',
   btnIcon: <IoMdArrowForward />,
 };

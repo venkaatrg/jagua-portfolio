@@ -36,15 +36,16 @@ const Hero = () => {
           className='h1'>{title}
           </motion.h1>
           <motion.p
-          variants={fadeIn('up')}
+          variants={fadeIn('down')}
           className='mb-8 lg:mb-16 max-w-lg
-          leading-relaxed'>{subtitle}
+          leading-relaxed'>
+            {subtitle}
           </motion.p>
-          <div>
+          <motion.div variants={fadeIn('down')}>
             <button className='btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0'>
               {btnText} <div className='text-xl'>{btnIcon}</div>
             </button>
-          </div>
+          </motion.div>
         </div>
 
         

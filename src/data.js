@@ -145,34 +145,16 @@ export const contactData = {
   title: 'Get in touch with me:',
   info: [
     {
-      title: 'LA office',
+      title: 'Contraste Inks Studio ',
       subtitle:
         'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
       address: {
         icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
+        name: '50 Nanyang Ave, Singapore 639798',
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
-      },
-      email: {
-        icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
-      },
-      link: 'Get location',
-    },
-    {
-      title: 'NYC office',
-      subtitle:
-        'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '1630 Elm Drive, New York City',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 34 36573355',
+        number: '+65 6791 1744',
       },
       email: {
         icon: <FaEnvelope />,
@@ -191,16 +173,16 @@ export const contactData = {
 
 export const footerData = {
   about: {
-    title: 'About void tattoo',
+    title: 'About Ink By Contraste',
     subtitle:
       'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
     address: {
       icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
+      name: '50 Nanyang Ave, Singapore 639798',
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
+      number: '+65 6791 1744',
     },
     email: {
       icon: <FaEnvelope />,

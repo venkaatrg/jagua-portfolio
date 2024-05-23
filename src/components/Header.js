@@ -30,7 +30,7 @@ const Header = () => {
           ? 'bg-white h-[80px] lg:h-[110px] shadow-lg' 
           : 'bg-white h-[100px] lg:h-[150px] shadow-lg' 
         }
-        fixed left-0 right-0 z-10 max-w-[1920px]
+        fixed bg-white left-0 right-0 z-10 max-w-[1920px]
         w-full mx-auto transition-all duration-300`}
     >
       <div className='flex justify-between items-center

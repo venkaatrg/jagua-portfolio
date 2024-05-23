@@ -145,9 +145,9 @@ export const contactData = {
   title: 'Get in touch with me:',
   info: [
     {
-      title: 'Contraste Inks Studio ',
+      title: 'Ink By Contraste',
       subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
+        'An SG-based Jagua Ink Tattoo Studio. We provide tattoos without the commitment.',
       address: {
         icon: <FaMapMarkerAlt />,
         name: '50 Nanyang Ave, Singapore 639798',
@@ -160,7 +160,7 @@ export const contactData = {
         icon: <FaEnvelope />,
         address: 'contact@yourcompany.com',
       },
-      link: 'Get location',
+      link: 'View in Maps',
     },
   ],
   form: {

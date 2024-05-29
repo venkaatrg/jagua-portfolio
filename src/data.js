@@ -46,7 +46,7 @@ export const socialData = [
 export const heroData = {
   title: 'InkByContraste',
   subtitle:
-    'Jagua Ink Tattoos - tattoos without the commitment.',
+    'Jagua Ink Tattoos - realistic tattoos minus the commitment.',
   btnText: 'read more',
   btnIcon: <IoMdArrowForward />,
 };
@@ -175,7 +175,7 @@ export const footerData = {
   about: {
     title: 'About Ink By Contraste',
     subtitle:
-      'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
+      'An SG-based Jagua Ink Tattoo Studio. Realistic tattoos minus the commitment.',
     address: {
       icon: <FaMapMarkerAlt />,
       name: '50 Nanyang Ave, Singapore 639798',
@@ -199,12 +199,10 @@ export const footerData = {
     ],
   },
   program: {
-    title: 'Working Time',
+    title: 'Working Hours',
     items: [
-      { name: 'Mon - Tue / Appointment' },
-      { name: 'Wed - Fri / 10:00 - 9:00pm' },
-      { name: 'Sat / 10:00 - 6:00pm' },
-      { name: 'Sun / no work on this day' },
+      { name: 'Mon - Sat | On Appointment Basis' },
+      { name: 'Sun | Not open for appointments' },
     ],
   },
   newsletter: {

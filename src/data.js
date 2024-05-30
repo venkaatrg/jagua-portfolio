@@ -32,6 +32,7 @@ export const navData = {
     { href: 'gallery', name: 'Gallery' },
     //{ href: '/', name: 'Articles' },
     { href: 'contact', name: 'Contact' },
+    { href: 'https://forms.gle/jjxYBXp42V8Xiutr7', name:'Book Now', isExternal:true},
   ],
 };
 

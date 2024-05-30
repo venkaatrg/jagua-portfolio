@@ -27,7 +27,7 @@ const NavMobile = () => {
       <Socials />
     </div>
   </nav>
-  );
+  )
 };
 
 export default NavMobile;

@@ -39,13 +39,6 @@ const About = () => {
               <div className='max-w-[530px] text-grey'>
                 <p className='mb-6'> {subtitle1}</p>
                 <p className='mb-9'> {subtitle2}</p>
-                <button className='btn btn-lg btn-link
-                lg:btn-lg btn-outline mx-auto lg:mx-0'> 
-                  {btnText} 
-                  <div className='text-xl'>
-                    {btnIcon}
-                  </div>
-                </button>
               </div>
             </div>
           </motion.div>

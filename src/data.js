@@ -27,20 +27,20 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
+    { href: 'hero', name: 'Home' },
+    { href: 'about', name: 'About' },
+    { href: 'gallery', name: 'Gallery' },
     //{ href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
+    { href: 'contact', name: 'Contact' },
   ],
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
+  //{ href: '/', icon: <GrFacebookOption /> },
+  { href: 'https://www.instagram.com/inkbycontraste/', icon: <IoLogoInstagram /> },
   { href: '/', icon: <IoLogoPinterest /> },
-  { href: '/', icon: <IoLogoTwitter /> },
-  { href: '/', icon: <IoLogoYoutube /> },
+  //{ href: '/', icon: <IoLogoTwitter /> },
+  //{ href: '/', icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
@@ -52,7 +52,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: 'My Story:',
+  title: 'About Me:',
   subtitle1:
     'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
   subtitle2:
@@ -192,8 +192,8 @@ export const footerData = {
   links: {
     title: 'Useful links',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
+      { href: 'about', name: 'About me' },
+      { href: 'gallery', name: 'My gallery' },
       { href: '/', name: 'My services' },
       { href: '/', name: 'Contact me' },
     ],

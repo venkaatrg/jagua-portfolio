@@ -11,7 +11,7 @@ const Nav = () => {
       {items.map((item, index) => {
         return <li key={index}>
           <a className='link hover:border-b-2 hover:border-dark 
-          transition duration-300' href={item.href}>
+          transition duration-300' href={`#${item.href}`}>
             {item.name}
           </a>
         </li>

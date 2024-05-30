@@ -13,10 +13,10 @@ const App = () => {
   return (
     <div className='max-w-[1920px] mx-auto overflow-hidden bg-white'>
       <Header />
-      <Hero />
-      <About />
-      <GallerySection />
-      <Contact />
+      <div id='hero'><Hero/></div>
+      <div id='about'><About /></div>
+      <div id='gallery'><GallerySection /></div>
+      <div id='contact'><Contact /></div>
       <Footer />
       <Copyright />
     </div>

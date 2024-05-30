@@ -18,7 +18,7 @@ const NavMobile = () => {
         return (
           <li key={index}>
             <a className='text-2xl font-primary uppercase'
-            href={item.href}>{item.name}</a>
+            href={`#${item.href}`}>{item.name}</a>
           </li>
         );
       })};

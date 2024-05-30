@@ -9,7 +9,8 @@ const Socials = () => {
   gap-x-[30px]'>
     {socialData.map((item, index) => {
       return <li key={index}>
-        <a href={item.href}>{item.icon}</a>
+        <a href={item.href} target="_blank" rel="noopener noreferrer"
+        >{item.icon}</a>
 
       </li>
     })}

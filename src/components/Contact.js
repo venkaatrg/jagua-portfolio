@@ -6,6 +6,17 @@ import { motion } from 'framer-motion';
 //import variants
 import { fadeIn } from '../variants';
 
+const handleSubmit = (event) => {
+  event.preventDefault();
+
+  const name = event.target.elements.name.value;
+  const email = event.target.elements.email.value;
+  const message = event.target.elements.message.value;
+
+  const url = `https://docs.google.com/forms/d/e/1FAIpQLScq_7vYkdsyJTO24zUzaiK7tAxCxu2r4rDikUM_7gCPLoRzpg/viewform?usp=pp_url&entry.1702246577=NAME&entry.2007421256=EMAIL&entry.1329214974=MESSAGE`
+
+  window.location.href=url;
+};
 
 const Contact = () => {
   //destructure contact data
@@ -73,26 +84,26 @@ const Contact = () => {
           viewport={{once:false, amount: 0.4}}
           className='flex-1 xl:pl-[40px] flex
           justify-center items-center'>
-            <form className='flex flex-col gap-y-10 w-full'>
-            <input 
+            <form className='flex flex-col gap-y-10 w-full' onSubmit={handleSubmit}>
+            <input name='name'
               className='border-b border-dark placeholder:text-[#555]
               italic tracking-[0.06em] outline-none pb-4'
               placeholder={form.name}
               type='text'
               />
-              <input 
+              <input name='email'
               className='border-b border-dark placeholder:text-[#555]
               italic tracking-[0.06em] outline-none pb-4'
               placeholder={form.email}
               type='text'
               />
-              <input 
+              <textarea name='message'
               className='border-b border-dark placeholder:text-[#555]
               italic tracking-[0.06em] outline-none pb-4'
               placeholder={form.message}
               type='text'
               />
-              <button className='btn btn-sm btn-dark self-start'>
+              <button type='submit' className='btn btn-sm btn-dark self-start'>
                 {form.btnText}
               </button>
             </form>
